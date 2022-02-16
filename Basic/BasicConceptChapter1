@@ -37,3 +37,14 @@ modern cpp create thread
 std::thread t1(ThreadProc, 123);
 
 Context Switch 
+
+if two thread use one variable => data race => Possibility incorrect calculation result
+
+동기화 synchronize : 대표적인 것이 임계 영역과 뮤텍스, lock 기법.
+
+mutex : dont use variable until current thread finish
+mutex(mutual exclusion)
+
+
+
+
