@@ -40,10 +40,13 @@ Context Switch
 
 if two thread use one variable => data race => Possibility incorrect calculation result
 
-동기화 synchronize : 대표적인 것이 임계 영역과 뮤텍스, lock 기법.
-
+동기화(synchronize) : 대표적인 것이 임계 영역과 뮤텍스, lock 기법.
+임계 영역(critical section) 
 mutex : dont use variable until current thread finish
 mutex(mutual exclusion)
+
+lock_guard : auto unlcok class
+
 
 
 
