@@ -1,0 +1,6 @@
+program : code + data
+Run => program : code + data + heap + stack 
+
+Program is on disk, Process is on RAM memory
+
+multiple processes running => Multi-Processing 
