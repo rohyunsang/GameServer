@@ -4,3 +4,25 @@ Run => program : code + data + heap + stack
 Program is on disk, Process is on RAM memory
 
 multiple processes running => Multi-Processing 
+
+void main()
+{
+    t2 = CreateThread(Thread2Proc);
+}
+
+void Thread2Proc()
+{
+    t3 = CreateThread(Thread3Proc);
+}
+
+void Thread3Proc()
+{
+    t4 = CreateThread(Thread4Proc);
+}
+
+A program consists of many subroutines or functions
+
+When a function finishes executing, it returns to the point 
+where it executed the caller function that called itself.
+this information is stored is called the call stack.
+
