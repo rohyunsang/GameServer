@@ -26,3 +26,12 @@ When a function finishes executing, it returns to the point
 where it executed the caller function that called itself.
 this information is stored is called the call stack.
 
+1. 생성
+2. 실행 중 (Runnable)
+3. 대기 중 (Blocked)
+4. 소멸 (Dead)
+
+if Runnable another thread, Dead main thread => Zombie thread
+
+
+
