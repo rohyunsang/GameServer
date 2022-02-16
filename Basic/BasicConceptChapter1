@@ -36,4 +36,4 @@ if Runnable another thread, Dead main thread => Zombie thread
 modern cpp create thread 
 std::thread t1(ThreadProc, 123);
 
-
+Context Switch 
