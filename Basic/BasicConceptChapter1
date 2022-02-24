@@ -47,7 +47,13 @@ mutex(mutual exclusion)
 
 lock_guard : auto unlcok class
 
+Contention : two Threads access one data
 
+DeadLock On GameServer 
+1. Cpu usage is very low or 0%
+2. Cant use Client 
 
+if we use CRITICAL_SECTION, we can see where the deadlock is coming from.
 
+How to use CRITICAL_SECTION :
 
