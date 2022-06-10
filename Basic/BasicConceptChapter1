@@ -57,3 +57,20 @@ if we use CRITICAL_SECTION, we can see where the deadlock is coming from.
 
 How to use CRITICAL_SECTION :
 
+Event : 
+    Reset : no event
+    Set : have an event 
+
+Consider waiting event over two threads 
+    automatic event : wake up one thread
+    manaual event : wake up all threads 
+    
+mutex or critical section allows only one thread to access a data 
+but semaphore is different 
+
+atomic operation (원자 조작)
+    AtomicAdd()
+    AtomicExchange()
+    AtomciCompareExchange()
+
+
