@@ -1,0 +1,15 @@
+Computer Networking = Terminal(단말기) + Network Machine
+Terminal = Client + Server
+LAN = Local Area Network
+
+OSI(Open System Interconnection reference) : 7 Layers 
+frame = header + payload
+WAN(Wide Area Network) = LAN x N
+IP(Internet Protocol)
+
+Layer 1 : Hardware
+Layer 2 : frame(data)
+Layer 3 : packet(data)
+
+
+stream is just data stream
