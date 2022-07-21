@@ -13,3 +13,25 @@ Layer 3 : packet(data)
 
 
 stream is just data stream
+file transfer EOF(Header or Delimiter)
+Header : Header + Data
+Delimiter : Data + Delimiter
+
+Unlike streams, messages can distinguishing beginning point and the end of data 
+Message example : 
+0 ~ 1 MessageType_FireBullet
+2 ~ 13 Position(x,y,z)
+14 ~ 25 Direction(x,y,z)
+26 ~ 27 Bullet Type
+
+Fragmentation(단편화) 
+
+Ports in Process in Terminal
+
+DNS Server : host name transfer IP address
+
+Layer 1 Hareware : Basically Data is changed into an electric signal or electromagnetic wave signal of a certain 
+amplitude or frequency in the process of going out to a wired or wireless line and is emitted.
+
+Latency(전송 지연 시간)
+
