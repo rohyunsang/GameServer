@@ -10,3 +10,7 @@ tcp stream data seperated => segment can in IP packet
 terminal 1 : data segment => termainal 2 : ack => terminal 1 : data segment => terminal 2 : acknowledge
 thats process OS guaranteed do OSself
 
+UDP ratency = network machine ratency
+TCP ratency = network machine ratency + packet lost percent * resent waiting time
+
+
