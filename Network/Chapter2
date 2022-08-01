@@ -1,0 +1,12 @@
+TCP (Transmission Control Protocol) 
+Tcp most connected before data send (connection oriented) and only permit 1 : 1 connect
+Tcp currented receive all data so thats why almost internet protocol use Tcp
+and remember tcp is stream type not message type
+UDP and TCP Operate on IP 
+OSI layer 3 : IP
+OSI layer 4 : UDP TCP
+tcp stream data seperated => segment can in IP packet
+
+terminal 1 : data segment => termainal 2 : ack => terminal 1 : data segment => terminal 2 : acknowledge
+thats process OS guaranteed do OSself
+
