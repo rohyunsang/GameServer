@@ -1,5 +1,5 @@
 TCP (Transmission Control Protocol) 
-Tcp most connected before data send (connection oriented) and only permit 1 : 1 connect
+Tcp must connected before data send (connection oriented) and only permit 1 : 1 connect
 Tcp currented receive all data so thats why almost internet protocol use Tcp
 and remember tcp is stream type not message type
 UDP and TCP Operate on IP 
@@ -13,4 +13,9 @@ thats process OS guaranteed do OSself
 UDP ratency = network machine ratency
 TCP ratency = network machine ratency + packet lost percent * resent waiting time
 
+Parser(구문 분석기)
+Meta data(msg have what to do information)
+
+NAT(Network Address Translation) 
+NAT Router : NAT translation machine its doing one IP address can using various machines
 
