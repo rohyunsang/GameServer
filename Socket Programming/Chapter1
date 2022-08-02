@@ -1,1 +1,9 @@
-ds
+Socket basically similar file handle 
+When communicating using TCP, there must be as many sockets as the number of client
+
+chapter summary : Blocking , Non-Blocking , Overlapped I/O , epoll , Completion Port 
+
+Blocking Socket 
+waiting for resv time => blocking 
+Blocking threads do not perform CPU operations So CPU usage 0%
+When thread waitable stable, actual processing in device 
